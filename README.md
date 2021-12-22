@@ -37,8 +37,8 @@ $ cd brutecoin && python3 -m pip install -r requirements.txt
 
 - Download <a href="http://addresses.loyce.club/">the updated wallet list</a> with balance (balance not shown, sorted in alphabetical order).
 - Rename the downloaded file to "dataset.txt" and move it into the DATASET folder.
-- Run ```$ python3 serializer.py``` to serialize the .txt data in bytes files.
-- Once the dataset is splitted and serialized, run ```$ python3 bruteforcer.py```
+- Run ```python3 serializer.py``` to serialize the .txt data.
+- Once the dataset is splitted and serialized, run ```python3 bruteforcer.py```
 
 # How It Works:
 
