@@ -28,7 +28,7 @@ In conclusion, if you don't have a quantum computer, it is just a big waste of t
 # Installation.
 
 ```
-$ git clone https://github.com/ brutecoin
+$ git clone https://github.com/andydarko/brutecoin.git brutecoin
 
 $ cd brutecoin && python3 -m pip install -r requirements.txt
 ```
