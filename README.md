@@ -1,8 +1,8 @@
-# Description
+# Description:
 
 BruteCoin is a Bitcoin collider that generates random private keys and checks if the linked wallets have any balance.
 
-# Infos.
+# Infos:
 
 This project was created for fun and to experiment with cryptography, BTC addresses generation, data serialization and de-serialization, and multi processes.
 The brute forcer uses a high amount of RAM because it needs to load the full dataset in memory for each process that gets created.
@@ -25,7 +25,7 @@ Using only one process and 16GB of RAM:
 
 In conclusion, if you don't have a quantum computer, it is just a big waste of time and electricity.
 
-# Installation.
+# Installation:
 
 ```
 $ git clone https://github.com/andydarko/brutecoin.git brutecoin
@@ -33,13 +33,13 @@ $ git clone https://github.com/andydarko/brutecoin.git brutecoin
 $ cd brutecoin && python3 -m pip install -r requirements.txt
 ```
 
-# Usage.
+# Usage:
 
 - Download <a href="http://addresses.loyce.club/">the updated wallet list</a> with balance (balance not shown, sorted in alphabetical order).
 - Rename the downloaded file to "dataset.txt" and move it into the DATASET folder.
 - Run ```$ python3 serializer.py``` to serialize the .txt data in bytes files.
 - Once the dataset is splitted and serialized, run ```$ python3 bruteforcer.py```
 
-# How It Works.
+# How It Works:
 
 Just read the code lol.
